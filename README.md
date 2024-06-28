@@ -1,4 +1,4 @@
-# IoT-Project
+# Home Automation IoT Project
 
 ## Martim Oliveira - mo223tz
 An IoT Project focused on building a basic Home Monitoring System, using temperature and humidity sensor, obstacle sensor, and microphone sensor.  The chosen microcontroller was RPI Pi Pico W. The aim of the project is to test the use of this sensors in day-to-day. 
@@ -15,4 +15,17 @@ An IoT Project focused on building a basic Home Monitoring System, using tempera
 
 ## Objective 
 
-The aim of this project is to try some sensors that might be implementede on several homem automation solutions. 
+The aim of this project is to try some sensors that might be implementede on several homem automation solutions. The goal is to retrieve accurate information about air quality and temperature inside home, build an obstacle sensor for a automatic vaccum and use a microphone sensor to use inside a baby's room. The devices can help users to automate some utilities inside their houses, which can improve and help users on their daily routines. 
+
+## Material
+
+|                 |
+| --------------- |
+|                 |
+|                 |
+|
+|
+|
+|
+|
+
