@@ -19,14 +19,14 @@ The aim of this project is to try some sensors that might be implementede on sev
 
 ## Material
 
-|  **Device**     |
-| --------------- |
-|  Breadboard     |              
-|  RPI Pi Pico W  |
-|  Jump Wires     |
-|  Red Led        |
-|  1K Resistor    |
-|  KY-015         |
-|  KY-038         |
-|  KY-032         |
-|  KY-053         |
+|  **Device**     |            **Description**           |      **Price/Store**          |
+| --------------- | -------------------------------------|-------------------------------|          
+|  Breadboard     | Connects the circuits                |     Kit 83.99€/ [Link](https://www.amazon.com/SunFounder-Raspberry-Beginners-Software-Engineer/dp/B093B9R6NL)  |
+|  RPI Pi Pico W  | Microcontroller                      |
+|  Jump Wires     | Connects RPI to sensors              |
+|  Red Led        | Flashes red light                    |
+|  1K Resistor    | Electrical resistance                |  
+|  KY-015         | Temp + Humidity Sensor               |
+|  KY-038         | Noise detection sensor               |
+|  KY-032         | Infra red obstacle detector          |
+|  KY-053         | Converts analog signal to digital    |
