@@ -19,13 +19,14 @@ The aim of this project is to try some sensors that might be implementede on sev
 
 ## Material
 
-|                 |
+|  **Device**     |
 | --------------- |
-|                 |
-|                 |
-|
-|
-|
-|
-|
-
+|  Breadboard     |              
+|  RPI Pi Pico W  |
+|  Jump Wires     |
+|  Red Led        |
+|  1K Resistor    |
+|  KY-015         |
+|  KY-038         |
+|  KY-032         |
+|  KY-053         |
