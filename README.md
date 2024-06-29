@@ -40,5 +40,5 @@ The chosen IDE was Thonny, which is a user-friendly IDE with Python built-in. [D
 4. Drag and Drop the Firmware onto RPI Pi Pico W.
 5. Disconnect and Connect again (not holding the button) the RPI.
 
-### Thonny IDE
+#### Thonny IDE
 1. 
