@@ -30,3 +30,15 @@ The aim of this project is to try some sensors that might be implementede on sev
 |  KY-038         | Noise detection sensor               |  Kit 50.38€ / [Link](https://www.electrokit.com/en/sensor-kit-40-moduler)  |
 |  KY-032         | Infra red obstacle detector          |  Kit 50.38€ / [Link](https://www.electrokit.com/en/sensor-kit-40-moduler)  |
 |  KY-053         | Converts analog signal to digital    |  Kit 50.38€ / [Link](https://www.electrokit.com/en/sensor-kit-40-moduler)  |
+
+## Computer setup
+
+The chosen IDE was Thonny, which is a user-friendly IDE with Python built-in. [Download Thonny here](https://thonny.org/)
+1. Download Thonny [Download](https://thonny.org/)
+2. Connect RPI Pi Pico W to your computer (hold the button on the hardware) until you see the device appearing on your computer.
+3. Download the latest Firmware to run MicroPython [Latest Firmware](https://micropython.org/download/RPI_PICO_W/)
+4. Drag and Drop the Firmware onto RPI Pi Pico W.
+5. Disconnect and Connect again (not holding the button) the RPI.
+
+### Thonny IDE
+1. 
