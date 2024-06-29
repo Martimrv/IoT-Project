@@ -41,4 +41,7 @@ The chosen IDE was Thonny, which is a user-friendly IDE with Python built-in. [D
 5. Disconnect and Connect again (not holding the button) the RPI.
 
 #### Thonny IDE
-1. 
+1. Open Thonny, click on View >> Files >> and open File manager panel
+2. Click on Run >> Configure Interpreter
+
+   ![Configure Interpreter]("C:\Users\marti\OneDrive\Desktop\2nd Year\IoT Course\Images for Project\Thonny-Run-Configure-Interpreter.png")
