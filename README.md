@@ -44,4 +44,63 @@ The chosen IDE was Thonny, which is a user-friendly IDE with Python built-in. [D
 1. Open Thonny, click on View >> Files >> and open File manager panel
 2. Click on Run >> Configure Interpreter
 
-   ![Configure Interpreter]("C:\Users\marti\OneDrive\Desktop\2nd Year\IoT Course\Images for Project\Thonny-Run-Configure-Interpreter.png")
+   ![Configure Interpreter](/HomeAutomation/Images/configInterp)
+3. Click on Interpreter >> add Micropython as interpreter >> choose your RPI Port
+
+   ![Choose RPI](/HomeAutomation/Images/chooseRPI)
+4. You will see your board on the Shell. Try a print("Hello World") !
+
+   ![Last Step](/HomeAutomation/Images/helloWorld)
+
+## Putting everything together
+
+   #### KY-015 (tempSensor)
+      GND connected to GND on Raspberry.
+      +V connected to Raspberry 3V3.
+      Signal(S) connected to GP13 on Raspberry.
+   #### KY-032 (obstacle_sensor)
+      GND connected to GND on Raspberry.
+      +V connected to RPI 3V3.
+      Signal connected to GP18 on Raspberry.
+   #### KY-038 (sound_sensor) + KY-053
+      GND connected to GND on RPI.
+      +V connected to Raspberry 3V3.
+      Digital Signal(DO) to GP15 on RPI.
+      Analog Signal(AO) to KY-053 AO.
+   #### KY-053 
+      VDD connected to 3V3 on RPI.
+      GND connected to GND on Raspberry.
+      SCL connected to GP01 on Raspberry.
+      SDA connected to GPIO0 on Raspberry.
+
+   #### Circuit Diagram hand drawn
+
+   ![Circuit](/HomeAutomation/Images/circuit)
+
+## Platform
+
+For this project, I chose Adafruit as the platform due to its feature set, ease touse, and scalability. Adafruit, is a cloud-based solution which simplifies the process of receiving and sending data over IoT devices. Moreover, it provides intuitive dashboards for data visualization. 
+Adafruit allows an easy creation and management of feeds, intuitive tools to custom dashboards, real-time data visualization, and it also has a comprehensive number of client libraries. 
+
+## The Code
+
+- machine module: interacts with hardware components.
+- time: module to create time-related funtions.
+- network module: manages network connectivity.
+- umqtt.simple: MQTT communication.
+- ADS1115: library used to interface with the ADS1115 analog-to-digital converter (ADC). 
+
+```
+mqtt_server = 'io.adafruit.com'
+port = 1883
+mqtt_username = 'your_username'
+mqtt_key = 'your_mqtt_key'
+mqtt_feed_temperature = 'martimolv/feeds/picow.temperature'
+mqtt_feed_humidity = 'martimolv/feeds/picow.humidity'
+mqtt_feed_obstacle = 'martimolv/feeds/picow.obstacle'
+mqtt_feed_sound_volt = 'martimolv/feeds/picow.sound-voltage'
+mqtt_feed_sound_analog = 'martimolv/feeds/picow.sound-analog'
+
+client = MQTTClient(mqtt_username, mqtt_server, port=port, user=mqtt_username, password=mqtt_key)
+client.connect()
+```
