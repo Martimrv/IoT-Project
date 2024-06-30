@@ -48,10 +48,10 @@ The chosen IDE was Thonny, which is a user-friendly IDE with Python built-in. [D
 
 4. Click on Interpreter >> add Micropython as interpreter >> choose your RPI Port
 
-   ![Choose RPI](/HomeAutomationIoT/Images/chooseRPI)
+   ![Choose RPI](/HomeAutomationIoT/Images/chooseRPI.png)
 5. You will see your board on the Shell. Try a print("Hello World") !
 
-   ![Last Step](/HomeAutomationIoT/Images/helloWorld)
+   ![Last Step](/HomeAutomationIoT/Images/helloWorld.png)
 
 ## Putting everything together
 
@@ -76,7 +76,7 @@ The chosen IDE was Thonny, which is a user-friendly IDE with Python built-in. [D
 
    #### Circuit Diagram hand drawn
 
-   ![Circuit](/HomeAutomationIoT/Images/circuit)
+   ![Circuit](/HomeAutomationIoT/Images/circuit.png)
 
 ## Platform
 
@@ -149,9 +149,9 @@ Also, it is possible to visualize the data on Adafruit dashboards.
 All the sensors data is visualized on Adafruit, presented on charts and graphs, easy to understand. 
 Moreover, all the data is saved inside each feed, so we can keep track on older data.
 
-![Dashboard1](/HomeAutomationIoT/Images/dashboard1)
+![Dashboard1](/HomeAutomationIoT/Images/dashboard1.png)
 
-![Dashboard2](/HomeAutomationIoT/Images/dashboard2)
+![Dashboard2](/HomeAutomationIoT/Images/dashboard2.png)
 
 ## Finalizing the design
 
@@ -165,10 +165,10 @@ This project successfully implemented a system to collect data from various sens
 
 This project demonstrated the feasibility of building a comprehensive IoT system using readily available components and cloud platforms.
 
-![Hardware1](/HomeAutomationIoT/Images/hardware1)
+![Hardware1](/HomeAutomationIoT/Images/hardware1.png)
 
-![Hardware2](/HomeAutomationIoT/Images/hardware2)
+![Hardware2](/HomeAutomationIoT/Images/hardware2.png)
 
-![BlinkLed](/HomeAutomationIoT/Images/hardware3)
+![BlinkLed](/HomeAutomationIoT/Images/hardware3.png)
 
-![Shell results](/HomeAutomationIoT/Images/shell1)
+![Shell results](/HomeAutomationIoT/Images/shell1.png)
