@@ -76,7 +76,7 @@ The chosen IDE was Thonny, which is a user-friendly IDE with Python built-in. [D
 
    #### Circuit Diagram hand drawn
 
-   ![Circuit](/HomeAutomationIoT/Images/circuit.png)
+   ![Circuit](/HomeAutomationIoT/Images/circuit.jpg)
 
 ## Platform
 
@@ -165,10 +165,10 @@ This project successfully implemented a system to collect data from various sens
 
 This project demonstrated the feasibility of building a comprehensive IoT system using readily available components and cloud platforms.
 
-![Hardware1](/HomeAutomationIoT/Images/hardware1.png)
+![Hardware1](/HomeAutomationIoT/Images/hardware1.jpg)
 
-![Hardware2](/HomeAutomationIoT/Images/hardware2.png)
+![Hardware2](/HomeAutomationIoT/Images/hardware2.jpg)
 
-![BlinkLed](/HomeAutomationIoT/Images/hardware3.png)
+![BlinkLed](/HomeAutomationIoT/Images/hardware3.jpg)
 
 ![Shell results](/HomeAutomationIoT/Images/shell1.png)
