@@ -44,13 +44,13 @@ The chosen IDE was Thonny, which is a user-friendly IDE with Python built-in. [D
 1. Open Thonny, click on View >> Files >> and open File manager panel
 2. Click on Run >> Configure Interpreter
 
-   ![Configure Interpreter](/HomeAutomation/Images/configInterp)
+   ![Configure Interpreter](/HomeAutomationIoT/Images/configInterp)
 3. Click on Interpreter >> add Micropython as interpreter >> choose your RPI Port
 
-   ![Choose RPI](/HomeAutomation/Images/chooseRPI)
+   ![Choose RPI](/HomeAutomationIoT/Images/chooseRPI)
 4. You will see your board on the Shell. Try a print("Hello World") !
 
-   ![Last Step](/HomeAutomation/Images/helloWorld)
+   ![Last Step](/HomeAutomationIoT/Images/helloWorld)
 
 ## Putting everything together
 
@@ -75,7 +75,7 @@ The chosen IDE was Thonny, which is a user-friendly IDE with Python built-in. [D
 
    #### Circuit Diagram hand drawn
 
-   ![Circuit](/HomeAutomation/Images/circuit)
+   ![Circuit](/HomeAutomationIoT/Images/circuit)
 
 ## Platform
 
@@ -148,9 +148,9 @@ Also, it is possible to visualize the data on Adafruit dashboards.
 All the sensors data is visualized on Adafruit, presented on charts and graphs, easy to understand. 
 Moreover, all the data is saved inside each feed, so we can keep track on older data.
 
-![Dashboard1](/HomeAutomation/Images/dashboard1)
+![Dashboard1](/HomeAutomationIoT/Images/dashboard1)
 
-![Dashboard2](/HomeAutomation/Images/dashboard2)
+![Dashboard2](/HomeAutomationIoT/Images/dashboard2)
 
 ## Finalizing the design
 
@@ -164,10 +164,10 @@ This project successfully implemented a system to collect data from various sens
 
 This project demonstrated the feasibility of building a comprehensive IoT system using readily available components and cloud platforms.
 
-![Hardware1](/HomeAutomation/Images/hardware1)
+![Hardware1](/HomeAutomationIoT/Images/hardware1)
 
-![Hardware2](/HomeAutomation/Images/hardware2)
+![Hardware2](/HomeAutomationIoT/Images/hardware2)
 
-![BlinkLed](/HomeAutomation/Images/hardware3)
+![BlinkLed](/HomeAutomationIoT/Images/hardware3)
 
-![Shell results](/HomeAutomation/Images/shell1)
+![Shell results](/HomeAutomationIoT/Images/shell1)
