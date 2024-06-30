@@ -90,17 +90,15 @@ Adafruit allows an easy creation and management of feeds, intuitive tools to cus
 - umqtt.simple: MQTT communication.
 - ADS1115: library used to interface with the ADS1115 analog-to-digital converter (ADC). 
 
-```
+```python
+#MQTT Connection
 mqtt_server = 'io.adafruit.com'
 port = 1883
 mqtt_username = 'your_username'
 mqtt_key = 'your_mqtt_key'
-mqtt_feed_temperature = 'martimolv/feeds/picow.temperature'
-mqtt_feed_humidity = 'martimolv/feeds/picow.humidity'
-mqtt_feed_obstacle = 'martimolv/feeds/picow.obstacle'
-mqtt_feed_sound_volt = 'martimolv/feeds/picow.sound-voltage'
-mqtt_feed_sound_analog = 'martimolv/feeds/picow.sound-analog'
-
-client = MQTTClient(mqtt_username, mqtt_server, port=port, user=mqtt_username, password=mqtt_key)
-client.connect()
+mqtt_feed_temperature = 'your_user/feeds/picow.temperature'
+mqtt_feed_humidity = 'your_user/feeds/picow.humidity'
+mqtt_feed_obstacle = 'your_user/feeds/picow.obstacle'
+mqtt_feed_sound_volt = 'your_user/feeds/picow.sound-voltage'
+mqtt_feed_sound_analog = 'your_user/feeds/picow.sound-analog'
 ```
