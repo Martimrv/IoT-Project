@@ -44,11 +44,12 @@ The chosen IDE was Thonny, which is a user-friendly IDE with Python built-in. [D
 1. Open Thonny, click on View >> Files >> and open File manager panel
 2. Click on Run >> Configure Interpreter
 
-   ![Configure Interpreter](/HomeAutomationIoT/Images/configInterp)
-3. Click on Interpreter >> add Micropython as interpreter >> choose your RPI Port
+   ![Configure Interpreter](/HomeAutomationIoT/Images/configInterp.png)
+
+4. Click on Interpreter >> add Micropython as interpreter >> choose your RPI Port
 
    ![Choose RPI](/HomeAutomationIoT/Images/chooseRPI)
-4. You will see your board on the Shell. Try a print("Hello World") !
+5. You will see your board on the Shell. Try a print("Hello World") !
 
    ![Last Step](/HomeAutomationIoT/Images/helloWorld)
 
